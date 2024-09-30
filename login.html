@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Exposed Discord</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Exposed Discord</h1>
+    </header>
+
+    <main>
+        <section class="section">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="username">Nome de Usuário:</label>
+                <input type="text" id="username" required>
+                
+                <label for="password">Senha:</label>
+                <input type="password" id="password" required>
+                
+                <button type="submit">Entrar</button>
+            </form>
+            <p id="error" style="color: red;"></p>
+        </section>
+    </main>
+
+    
+
+    <!-- Vinculando o JavaScript no final do body -->
+    <script src="script.js"></script>
+</body>
+
+</html>
